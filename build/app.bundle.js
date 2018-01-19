@@ -18592,9 +18592,9 @@ var Timer = function (_React$Component) {
             var speech = new SpeechSynthesisUtterance();
             var voices = speechSynthesis.getVoices();
             speech.voice = voices.find(function (voice) {
-                return voice.name === 'Google русский';
+                return voice.name === 'Google US English';
             });
-            speech.text = 'Время вышло!';
+            speech.text = 'Your time is out!';
             speechSynthesis.speak(speech);
         }
     }, {

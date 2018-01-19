@@ -23,8 +23,8 @@ class Timer extends React.Component {
         let speech = new SpeechSynthesisUtterance();
         let voices = speechSynthesis.getVoices();
         speech.voice = voices.find(voice =>
-            voice.name === 'Google русский');
-        speech.text = 'Время вышло!';
+            voice.name === 'Google US English');
+        speech.text = 'Your time is out!';
         speechSynthesis.speak(speech);
     }
 
