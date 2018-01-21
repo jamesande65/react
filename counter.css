@@ -16,3 +16,34 @@
     background: url("img/blast.jpeg") no-repeat;
     background-size: cover;
 }
+
+.big-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.popup {
+    display: none;
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+    padding: 20px;
+    background: darkred;
+    border: 2px solid #000;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.active{
+    display: block;
+}
+
+.btn{
+    background: #fff;
+    padding: 15px 30px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-weight: bold;
+}

@@ -1,8 +1,10 @@
 import React from 'react';
-import Main from '../components/main';
-import Counter from '../components/counter';
-import ColorPicker from '../components/colorPicker';
-import Timer from '../components/timer';
+// import Main from '../components/main';
+// import Counter from '../components/counter';
+// import ColorPicker from '../components/colorPicker';
+// // import Timer from '../components/timer';
+// import Popup from '../components/popup';
+import Search from '../components/searchStates';
 
 const Wrapper = () => {
     return (
@@ -10,7 +12,9 @@ const Wrapper = () => {
             {/*<Main />*/}
             {/*<Counter />*/}
             {/*<ColorPicker />*/}
-            <Timer />
+            {/*<Timer />*/}
+            {/*<Popup />*/}
+            <Search />
         </div>
     )
 };
